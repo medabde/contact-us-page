@@ -11,21 +11,18 @@
     <div class="container">
       <form action="#">
         <h1>Contact Us</h1>
-        <label for="inp" class="inp">
-          <input type="email" id="inp" placeholder="&nbsp;" />
-          <span class="label">Email</span>
-          <span class="border"></span>
-        </label>
-        <label for="inp" class="inp">
-          <input type="text" id="inp" placeholder="&nbsp;" />
-          <span class="label">Subject</span>
-          <span class="border"></span>
-        </label>
-        <!-- <label for="inp" class="inp">
-          <input type="text" id="inp" placeholder="&nbsp;" />
-          <span class="label">Label</span>
-          <span class="border"></span>
-        </label> -->
+        <input
+          type="email"
+          placeholder="Email Address"
+          class="email-input"
+          required
+        />
+        <input type="text" placeholder="Subject" class="email-input" required />
+        <input
+          type="text"
+          placeholder="Go ahead, we're listening"
+          class="email-input"
+        />
         <input type="submit" />
       </form>
       <footer>
