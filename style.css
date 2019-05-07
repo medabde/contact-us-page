@@ -2,7 +2,7 @@ body {
   background-image: url("./bg.jpg");
 }
 .container {
-  margin-top: 10%;
+  margin-top: 2%;
   font-family: sans-serif;
   display: flex;
   align-items: center;
@@ -12,7 +12,65 @@ body {
   text-align: center;
 }
 
-form input {
+form {
+  position: relative;
   display: flex;
   flex-direction: column;
+  size: 50px;
+  width: 60vh;
+  margin-top: 6px;
+}
+form .text-input {
+  width: 100%;
+  padding: 12px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+  margin-bottom: 16px;
+  resize: vertical;
+  box-sizing: border-box;
+  transition: 0.3s;
+}
+form .email-input,
+form .subject-input,
+form .text-input {
+  width: 100%;
+  border: 2px solid #aaa;
+  border-radius: 4px;
+  margin: 8px 0;
+  outline: none;
+  padding: 8px;
+  box-sizing: border-box;
+  transition: 0.3s;
+}
+form .email-input:focus,
+form .subject-input:focus,
+form .text-input:focus {
+  border-color: #404040;
+  box-shadow: 0 0 8px 0 #404040;
+}
+
+.submit {
+  border: none;
+  background: #404040;
+  color: #ffffff !important;
+  font-weight: 100;
+  padding: 20px;
+  text-transform: uppercase;
+  border-radius: 6px;
+  display: inline-block;
+}
+.submit {
+  -webkit-transition-duration: 0.4s;
+  transition-duration: 0.4s;
+}
+
+.submit:hover {
+  color: #404040 !important;
+  font-weight: 700 !important;
+  letter-spacing: 3px;
+  background: none;
+  -webkit-box-shadow: 0px 5px 40px -10px rgba(0, 0, 0, 0.57);
+  -moz-box-shadow: 0px 5px 40px -10px rgba(0, 0, 0, 0.57);
+  transition: all 0.3s ease 0s;
 }

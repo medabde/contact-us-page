@@ -15,19 +15,25 @@
           type="email"
           placeholder="Email Address"
           class="email-input"
+          autocomplete="additional-name"
           required
         />
-        <input type="text" placeholder="Subject" class="email-input" required />
         <input
           type="text"
-          placeholder="Go ahead, we're listening"
-          class="email-input"
+          placeholder="Subject"
+          class="subject-input"
+          required
         />
-        <input type="submit" />
+        <textarea
+          placeholder="Go ahead, we're listening"
+          class="text-input"
+          style="height: 200px;"
+        ></textarea>
+        <input type="submit" class="submit" />
       </form>
       <footer>
         <h2>Looking for something else?</h2>
-        <button>Visit our office !</button>
+        <button class="submit">Visit our office !</button>
       </footer>
     </div>
   </body>
