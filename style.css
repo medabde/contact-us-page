@@ -53,7 +53,7 @@ form .text-input:focus {
 .submit {
   border: none;
   background: #404040;
-  color: #ffffff !important;
+  color: #ffffff;
   font-weight: 100;
   padding: 20px;
   text-transform: uppercase;
@@ -66,8 +66,8 @@ form .text-input:focus {
 }
 
 .submit:hover {
-  color: #404040 !important;
-  font-weight: 700 !important;
+  color: #404040;
+  font-weight: 700;
   letter-spacing: 3px;
   background: none;
   -webkit-box-shadow: 0px 5px 40px -10px rgba(0, 0, 0, 0.57);
