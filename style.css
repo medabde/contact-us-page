@@ -1,7 +1,18 @@
 body {
   background-image: url("./bg.jpg");
 }
-h1 {
+.container {
+  margin-top: 10%;
   font-family: sans-serif;
-  font-size: 50px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  width: 100%;
+  text-align: center;
+}
+
+form input {
+  display: flex;
+  flex-direction: column;
 }
